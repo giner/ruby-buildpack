@@ -1,4 +1,11 @@
 #!/bin/bash
+echo -e "e[1;95m***
+    WARNING: This buildpack is deprecated. Please use the following link instead:
+    
+    https://github.com/cloudfoundry/ruby-buildpack
+    
+    See also: https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=1802619039
+***e[0m"
 set -euo pipefail
 
 BUILD_DIR=$1
